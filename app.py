@@ -310,7 +310,7 @@ with tab_result:
         )
         st.dataframe(
             top5_view[["Jugador", "Selección", "Goles esperados", "Probabilidad (%)", "Rate/90", "Jugada", "Penal"]],
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
             column_config={
                 "Goles esperados": st.column_config.NumberColumn(format="%.2f"),
@@ -360,7 +360,7 @@ with tab_ranking:
     )
     st.dataframe(
         ranking_view,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
         column_config={
             "Fuente": st.column_config.LinkColumn("Fuente", display_text="Ver fuente"),
@@ -411,7 +411,7 @@ with tab_data:
     )
     st.dataframe(
         candidate_view,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
         column_config={
             "Fuente": st.column_config.LinkColumn("Fuente", display_text="Ver fuente"),
@@ -449,7 +449,7 @@ with tab_data:
         )
         st.dataframe(
             full_view,
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
             column_config={
                 "Fuente plantilla": st.column_config.LinkColumn("Fuente plantilla", display_text="FIFA"),
@@ -490,4 +490,4 @@ with tab_method:
                 {"Parámetro": "Conversión tiro-gol", "Valor": shot_to_goal_rate},
             ]
         )
-        st.dataframe(params, use_container_width=True, hide_index=True)
+        st.dataframe(params, width="stretch", hide_index=True)
