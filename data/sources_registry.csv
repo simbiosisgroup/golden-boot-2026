@@ -1,0 +1,8 @@
+source_name,source_type,url,use_case,notes
+FIFA World Cup 2026 tournament page,official tournament,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026,format and tournament context,Use for tournament structure and official context.
+FIFA World Cup 2026 match schedule,official tournament,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums,fixtures and match count,Use to confirm 104 matches and schedule.
+FIFA World Cup 2026 regulations,official regulations,https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf,Golden Boot rules and competition regulations,Use for award criteria and formal tournament rules.
+UEFA Champions League player stats,official competition stats,https://www.uefa.com/uefachampionsleague/clubs/players/250076574--kylian-mbappe/statistics/,player-level recent production,Good for UEFA competition minutes goals and attempts.
+Bundesliga player profile,official league stats,https://www.bundesliga.com/en/player/harry-kane,player-level recent production,Good for Bundesliga goals assists penalties appearances and shots on goal.
+Premier League Golden Boot article,official league article,https://www.premierleague.com/en/news/4591856/haaland-wins-202526-premier-league-golden-boot-award,confirmed season goals,Confirms Haaland 2025/26 Golden Boot goals.
+LaLiga stats,official league stats,https://www.laliga.com/en-GB/stats,player-level recent production,Use for Spanish league player stats when available.
